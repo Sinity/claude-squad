@@ -31,6 +31,20 @@ This will install the `cs` binary to `~/.local/bin` and add it to your PATH. To 
 curl -fsSL https://raw.githubusercontent.com/stmg-ai/claude-squad/main/install.sh | bash -s -- --name <n>
 ```
 
+#### Using Nix
+
+If you use the [Nix package manager](https://nixos.org/), you can install claude-squad with:
+
+```bash
+# Run directly without installing
+nix run github:smtg-ai/claude-squad
+
+# Or install to your profile
+nix profile install github:smtg-ai/claude-squad
+```
+
+For more Nix installation options, see [NIX-INSTALL.md](NIX-INSTALL.md).
+
 Alternatively, you can also install `claude-squad` by building from source or installing a [pre-built binary](https://github.com/smtg-ai/claude-squad/releases).
 
 ### Prerequisites
