@@ -3,3 +3,8 @@
 claude-squad
 **.DS_Store
 cs
+
+# Nix-specific
+result
+result-*
+.direnv/
