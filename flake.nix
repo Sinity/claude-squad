@@ -21,7 +21,7 @@
 
             src = ./.;
 
-            vendorHash = "sha256-MoKzShPn/JY4V7WnP6KdqdmUxxpJLInca8GdauIe66Q=";
+            vendorHash = "sha256-BduH6Vu+p5iFe1N5svZRsb9QuFlhf7usBjMsOtRn2nQ=";
 
             proxyVendor = false;
 
